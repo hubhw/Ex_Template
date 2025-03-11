@@ -1,0 +1,57 @@
+# LaTeX intermediate files
+*.aux
+*.bbl
+*.blg
+*.brf
+*.idx
+*.ilg
+*.ind
+*.lof
+*.log
+*.lot
+*.out
+*.toc
+*.acn
+*.acr
+*.alg
+*.dvi
+*.fdb_latexmk
+*.fls
+*.glg
+*.glo
+*.gls
+*.ist
+*.loa
+*.loc
+*.lol
+*.maf
+*.mtc
+*.mtc0
+*.nav
+*.nlo
+*.nls
+*.snm
+*.synctex.gz
+*.tdo
+*.thm
+*.toc
+*.vrb
+*.xdy
+
+# LaTeX document files
+*.pdf
+*.ps
+*.dvi
+
+# LaTeX editor files
+*.synctex.gz
+*.synctex(busy)
+*.pdfsync
+*.pdf(busy)
+
+# Other files
+*.bak
+*.backup
+*.tmp
+*.swp
+*.swo
