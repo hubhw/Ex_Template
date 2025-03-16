@@ -5,10 +5,18 @@
 \usepackage{amsmath,amsthm,amssymb,amsfonts, enumitem, fancyhdr, color, comment, graphicx, environ}
 \pagestyle{fancy}
 \setlength{\headheight}{65pt}
-\newenvironment{problem}[2][Problem]{\begin{trivlist}
+
+\newcounter{problem}
+\newcounter{solution}
+
+\newenvironment{problem}[2][Problem]{
+\refstepcounter{problem}    
+\begin{trivlist}
 \item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
 \newenvironment{sol}
-    {\emph{Solution:}
+    {
+        \refstepcounter{solution}
+        \emph{Solution:}
     }
     {
     \qed
